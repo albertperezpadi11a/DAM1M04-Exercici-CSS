@@ -32,3 +32,9 @@ a:hover {
 #llista_combinada > li{
     font-weight: bold;
 }
+p::before {
+  content: "💀 🇮🇱 ";
+}
+p::after {
+  content: " ✔🇵🇸";
+}
