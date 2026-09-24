@@ -21,5 +21,14 @@ a:hover {
     width: 200px;
 }
 .foto_projectes{
-    width: 200px;
+    height: 200px;
+}
+#llista_child :first-child{
+    color: darkturquoise;
+}
+#llista_child :last-child{
+    text-decoration: line-through;
+}
+#llista_combinada > li{
+    font-weight: bold;
 }
