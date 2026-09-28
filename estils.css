@@ -33,7 +33,7 @@ a:hover {
     font-weight: bold;
 }
 p::before {
-  content: "💀 🇮🇱 ";
+  content: "💀🇮🇱 ";
 }
 p::after {
   content: " ✔🇵🇸";
