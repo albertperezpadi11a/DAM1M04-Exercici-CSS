@@ -1,12 +1,82 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #2a313c;
+    color: white;
+}
+nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(21, 21, 21, 0.6);
+    backdrop-filter: blur(12px);
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    color: gold;
+    text-decoration: dashed underline;
+    background-color: slategrey;
+    border-radius: 12px;
+}
+footer {
+    background-color: rgba(21, 21, 21);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    padding: 20px;
+}
+footer a, footer p{
+    margin: 5px 0;
+}
+#inici{
+    background-color: #3d0e37;
+    border-radius: 15px;
+    padding: 30px;
+    width: 80%;
+    margin: 90px auto 20px auto;
+    align-items: center;
+    display: flex;
+}
+#inici img {
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+#container-llistes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    margin: 30px auto;
+}
+.llista_div{
+    background-color: #3d0e37;
+    width: 41.5%;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.llista_div h3{
+    text-align: center;
 }
 h1 {
+    padding-top: 80px;
     color: greenyellow;
     text-decoration: underline;
 }
 h2 {
-    color: saddlebrown;
+    color: salmon;
     font-style: italic;
 }
 a {
@@ -33,7 +103,7 @@ a:hover {
     font-weight: bold;
 }
 p::before {
-  content: "💀🇮🇱 ";
+    content: "💀🇮🇱 ";
 }
 p::after {
   content: " ✔🇵🇸";
